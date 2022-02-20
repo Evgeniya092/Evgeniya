@@ -1,0 +1,108 @@
+.header {
+    display: flex;
+    width: 100vw;
+    height: 543px;
+    background-image: url('/Week5/assets/images/header.jpg');
+    background-size: cover;
+}
+
+.h1 {
+    width: 624px;
+    height: 150px;
+    margin: auto;
+    font-family: 'Festive', cursive;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+}
+
+.h1:hover {
+    color: rgb(0, 183, 255);
+}
+
+.section {
+    display: flex;
+    width: 100vw;
+    height: 160px;
+    background-image: url('/Week5/assets/images/блок.jpg');
+}
+
+.h2 {
+    width: 454px;
+    height: 48px;
+    margin: auto;
+    font-family: 'Festive', cursive;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 48px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    width: 100vw;
+    height: 631px;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('/Week5/assets/images/sakura.gif');
+    background-size: cover;
+}
+
+.text {
+    width: 896px;
+    height: 200px;
+    margin: auto;
+    font-family: 'Festive', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    text-align: center;
+}
+
+img {
+    width: 460px;
+    height: 631px;
+}
+
+.footer {
+    display: flex;
+    width: 100vw;
+    height: 251px;
+    flex-wrap: wrap;
+    background-image: url('/Week5/assets/images/блок.jpg');
+}
+
+.p {
+    width: 1500px;
+    height: 50px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 48px;
+}
+
+
+.telega {
+    width: 107px;
+    height: 80px;
+    padding: 0;
+}
+
+.address {
+    font-family: 'roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 48px;
+}
+
+.a:visited {
+    color: rgb(247, 54, 221);
+}
+
+.a:active {
+    color: rgb(247, 54, 221);
+}
