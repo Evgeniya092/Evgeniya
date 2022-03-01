@@ -12,6 +12,7 @@ body {
     grid-area: 1/2/1/3;
     box-sizing: border-box;
     margin-right: 52px;
+    margin-left: 37px;
     padding-top: 49px;
 }
 
@@ -19,18 +20,19 @@ body {
     display: flex;
     box-sizing: border-box;
     width: 158px;
-    height: 198;
+    height: 198px;
     justify-content: space-between;
     align-items: flex-start;
 }
 
 .input {
     width: 117px;
-    border: 0;
-    font-family: Circular Std, serif;
+    font-family: 'Circular Std', serif;
     font-style: normal;
     font-weight: normal;
     font-size: 17px;
+    color: #00000025;
+    border: 0px;
 }
 
 .input::-ms-clear {
@@ -55,19 +57,19 @@ body {
 .ul {
     display: flex;
     margin-top: 0px;
-    justify-content: space-between;
-    list-style-type: none;
     margin-bottom: 0px;
     padding-left: 0px;
-    font-family: Circular Std;
+    justify-content: space-between;
+    list-style-type: none;
+    font-family: 'Circular Std';
     font-style: normal;
     font-weight: normal;
     font-size: 17px;
 }
 
 a {
-    text-decoration: none;
     color: black;
+    text-decoration: none;
 }
 
 .div3 {
@@ -97,13 +99,13 @@ a {
 .aside {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 90px 1fr;
+    grid-template-rows: 90px 100px 1fr;
     grid-area: 1/1/3/1;
     margin: 51px 42px 59.5px 56px;
 }
 
 .h1 {
-    font-family: Sofia Pro sans-serif;
+    font-family: 'Sofia Pro', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 30px;
@@ -119,55 +121,57 @@ a {
 
 .div4 {
     display: flex;
-    height: 687px;
+    height: 720px;
     flex-wrap: wrap;
 }
 
 .ul1 {
     display: flex;
-    width: 300px;
-    flex-direction: column;
-    list-style-type: none;
+    width: 150px;
+    height: 320px;
     padding: 0px;
-    font-family: Sofia Pro;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Sofia Pro';
     font-style: normal;
     font-weight: normal;
     font-size: 15.7099px;
-    text-align: center;
+    list-style-type: none;
 }
 
-ul.ul1 li.a::before {
-    content: url('/Week6/assets/images/caped/image15.png');
+.ul1 li {
+    display: flex;
+    width: 150px;
+    box-sizing: content-box;
+    justify-content: start;
 }
 
-ul.ul1 li.b::before {
-    content: url('/Week6/assets/images/caped/image9.png');
+.span {
+    margin-left: 10px;
 }
 
-ul.ul1 li.c::before {
-    content: url('/Week6/assets/images/caped/image8.png');
+.image {
+    width: 23px;
+    height: 23px;
 }
 
-ul.ul1 li.d::before {
-    content: url('/Week6/assets/images/caped/image7.png');
+.div5 {
+    display: flex;
+    width: 205px;
+    align-items: flex-end;
 }
 
-ul.ul1 li.e::before {
-    content: url('/Week6/assets/images/caped/image6.png');
+.image-help {
+    width: 47px;
+    height: 47px;
 }
 
-ul.ul1 li.f::before {
-    content: url('/Week6/assets/images/caped/image4.png');
-}
-
-ul.ul1 li.g::before {
-    content: url('/Week6/assets/images/caped/image5.png');
-}
-
-.a {
-    list-style-image: url('/Week6/assets/images/caped/image15.png');
-    list-style-position: inside;
-    text-align: start;
+.p1 {
+    margin-left: 17px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15.7099px;
 }
 
 .main {
@@ -177,9 +181,9 @@ ul.ul1 li.g::before {
     grid-area: 2/2/2/3;
     gap: 10.5px;
     box-sizing: border-box;
+    margin: 0px 52px 64px 37px;
     justify-items: stretch;
     align-items: stretch;
-    margin: 0px 52px 64px 37px;
     border-radius: 0 10px;
 }
 
