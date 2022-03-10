@@ -1,0 +1,425 @@
+body {
+    width: 1600px;
+    height: 1200px;
+    background-color: black;
+}
+
+.site {
+    display: flex;
+    width: 1500px;
+    height: 101px;
+    margin: auto;
+    justify-content: center;
+    box-sizing: content-box;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+    background-color: #000000;
+}
+
+
+.a {
+    display: flex;
+    padding-top: 35px;
+    text-decoration: none;
+    color: white;
+}
+
+.old-careo {
+    display: grid;
+    width: 1500px;
+    height: 1099px;
+    margin: 101px 50px 0px 50px;
+    grid-template-columns: 768px 1fr;
+    grid-template-rows: 88px 1fr 101px;
+    background-image: url('/Week7/assets/images/Old-careo/Rectangle.png');
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    height: 68px;
+    margin: 20px 50px 0px 50px;
+    justify-content: space-between;
+    grid-area: 1/1/1/3;
+}
+
+.logo {
+    display: flex;
+    width: 155px;
+    height: 32px;
+    padding-top: 15px;
+    justify-content: space-between;
+}
+
+.image_div {
+    display: grid;
+    width: 26px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.oval {
+    grid-area: 1/1/1/1;
+}
+
+.image_logo {
+    grid-area: 1/1/1/1;
+    width: 23.14px;
+    height: 19px;
+    padding-top: 5px;
+}
+
+.div_old-careo {
+    display: flex;
+    width: 119px;
+    height: 32px;
+    margin: 0px 0px 0px 10px;
+}
+
+.logo_p {
+    margin: auto;
+    font-family: 'Abril Fatface', cursive;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=GFS+Didot&display=swap');
+
+.nav {
+    display: flex;
+    width: 367px;
+    margin: 0px;
+    padding: 15px 0px 0px 0px;
+    justify-content: space-between;
+    list-style-type: none;
+    font-family: 'Gill Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+@font-face {
+    font-family: 'Gill Sans';
+    src: local('Gill Sans Light'), local('Gill-Sans-Light'),
+        url('/Week7/assets/fonts/GillSansLightC/style.css') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+.a1 {
+    text-decoration: none;
+    color: black;
+}
+
+.sign {
+    display: flex;
+    width: 145px;
+    height: 55px;
+    background-color: black;
+
+}
+
+.div_sign {
+    width: 150px;
+    height: 60px;
+    border: 4px solid black;
+}
+
+.a2 {
+    margin: auto;
+    text-decoration: none;
+    color: white;
+    font-family: 'Gill Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.div {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 116px;
+    grid-area: 2/1/2/1;
+}
+
+.div_main {
+    position: relative;
+    display: grid;
+    width: 750px;
+    height: 469px;
+    grid-template-columns: 83px 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 167px 0px 155px 27px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.14) 4.13%, rgba(255, 255, 255, 0.6) 80.29%);
+    border-radius: 20px;
+    z-index: 2;
+}
+
+.div1 {
+    grid-area: 1/1/3/1;
+    align-items: center;
+}
+
+.pag {
+    margin: 37px 42px 37px 24px;
+}
+
+.div2 {
+    grid-area: 1/2/1/3;
+}
+
+.p1 {
+    margin-top: 54px;
+    margin-bottom: 0px;
+    font-family: 'GFS Didot', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.span {
+    font-family: 'GFS Didot', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 87px;
+    line-height: 103px;
+}
+
+.div3 {
+    grid-area: 2/2/2/3;
+}
+
+.p2 {
+    margin-top: 26px;
+    margin-right: 75px;
+    margin-bottom: 74px;
+    font-family: 'Gill Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.footer {
+    display: flex;
+    height: 116px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div_learn {
+    display: flex;
+    width: 270px;
+    height: 116px;
+    margin-left: 60px;
+    background: linear-gradient(180deg, #000000 0%, #303030 100%);
+}
+
+.a3 {
+    margin: auto;
+    text-decoration: none;
+    color: white;
+    font-family: 'Gill Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.phone {
+    display: flex;
+    width: 345px;
+    height: 80px;
+    margin-right: 71px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.img_phone {
+    width: 38px;
+    height: 38px;
+}
+
+.p3 {
+    font-family: 'Gill Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.figure {
+    grid-area: 2/2/2/2;
+    margin: 94px 119.32px 59.96px 5.72px;
+}
+
+.image {
+    width: 585.35px;
+    height: 757.01px;
+}
+
+.line {
+    position: absolute;
+    width: 152px;
+    height: 79px;
+    left: 761px;
+    top: 706px;
+}
+
+.oval1 {
+    position: absolute;
+    width: 61px;
+    height: 61px;
+    left: 1415px;
+    top: 433px;
+}
+
+.oval10 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 492px;
+    top: 805px;
+    z-index: 1;
+}
+
+.oval2 {
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    left: 733px;
+    top: 325px;
+    z-index: 1;
+}
+
+.oval3 {
+    position: absolute;
+    width: 149px;
+    height: 149px;
+    left: 131px;
+    top: 384px;
+    z-index: 1;
+}
+
+@media screen and (min-width: 1551px) and (min-height:301px) {
+    body {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .site {
+        width: 94vw;
+    }
+
+    .old-careo {
+        width: 94vw;
+        height: 94vh;
+        grid-template-columns: 50% 50%;
+    }
+
+    .header {
+        width: 90vw;
+    }
+
+    .div {
+        width: 90vw;
+    }
+
+    .div_main {
+        width: 50%;
+        height: 60%;
+    }
+
+    .p1 {
+        font-size: 5vw;
+
+
+    }
+
+    .span {
+        font-size: 100%;
+
+    }
+
+    .p2 {
+        font-size: 1vw;
+    }
+
+    .figure {
+        width: 90vw;
+    }
+
+    .image {
+        width: 40%;
+    }
+
+    .line {
+        z-index: -1;
+    }
+
+    .oval1 {
+        z-index: -1;
+    }
+
+    .oval10 {
+        z-index: -1;
+    }
+
+    .oval2 {
+        z-index: -1;
+    }
+
+    .oval3 {
+        z-index: -1;
+    }
+
+}
+
+@media screen and (max-width: 899px) {
+
+    .site {
+        display: flex;
+        width: 94vw;
+    }
+
+    .old-careo {
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .figure {
+        display: none;
+    }
+
+    .line {
+        z-index: -1;
+    }
+
+    .oval1 {
+        z-index: -1;
+    }
+
+    .oval10 {
+        z-index: -1;
+    }
+
+    .oval2 {
+        z-index: -1;
+    }
+
+    .oval3 {
+        z-index: -1;
+    }
+}
